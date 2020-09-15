@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 850px;
+    height: 100vh;
+    font-family: "Helvetica";
+}
+
+.logo{
+    height: 145px;
+    background-color: #0085CF;
+}
+
+.logo img{
+    margin-top: 21px;
+    margin-left: 49px;
+    width: 333px;
+    height: 97px;
+}
+
+main{
+    margin: 34px 45px;
+    height: 320px;
+    width: 760px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    margin: 0 auto;
+    padding: 30px 25px;
+    height: 100px;
+    width: 510px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    color:#0085CF;
+    font-size: 35px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header span{
+    font-size: 20px;
+    text-align: center;
+}
+
+.news{
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 30px;
+    color: #0085cf;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news .info{
+    height: 322px;
+    width: 230px;
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 32px;
+    margin-right: 50px;
+}
+.news .info:last-child{
+    margin-right: 0;
+}
+
+.news .info h4{
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: bold;
+    margin: 22px 0 12px 0;
+}
+
+button{
+    width: 111px;
+    height: 31px;
+    border-radius: 9px;
+    background-color: #0085cf;
+    color: #fff;
+    border: none;
+}
+
+article{
+    margin: 40px;
+    padding: 20px 25px;
+    background-color: #0085CF;
+    color: #fffeff;
+    width: 750px;
+    height: 79px;
+    border-radius: 13px;
+}
+
+article h2{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+article span{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.updates .postUpdates{
+    display: flex;
+    margin: 29px 0 36px 45px;
+}
+
+.updates .content{
+    display: grid;
+    margin-left: 18px;
+    text-align: left;
+}
+
+.updates .content h5{
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.updates .content span{
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
+footer .social{
+    margin-top: 60px;
+    height: 91px;
+    background-color:#0085CF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+footer .social span{
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    font-family: "Arial";
+}
+
+footer .social img{
+    margin: 15px 4px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+footer .contact{
+   margin-top: 30px;
+   margin-bottom: 44px;
+   text-align: center;
+}
+
+footer .contact ul{
+    padding-bottom: 20px;
+}
+
+footer .contact li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2px;
+}
+
+footer .contact a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Arial";
+}
